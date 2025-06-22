@@ -1,0 +1,822 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Nunito Sans", "sans-serif";
+  font-weight: 400;
+  font-size: 100%;
+}
+
+.container {
+  max-width: 728px;
+  /* min-width: 340px; */
+  margin: 0 auto;
+}
+
+/* Свойство для слов золотого цвета */
+.word_gold {
+  color: #e3b873 /*!important*/;
+}
+
+.btn {
+  font-size: 11px;
+  text-decoration: none;
+  font-style: italic;
+  text-transform: uppercase;
+  color: #fff;
+  border-radius: 2px;
+}
+
+.font_sans {
+  font-family: "Yeseva One", "Times New Roman", "serif";
+  font-weight: 400;
+}
+
+
+/* ***HEADER STYLES**** */
+
+.header {
+  background-color: #131313;
+}
+
+.header__container {
+  display: flex;
+  flex-flow: row nowrap;
+  /* justify-content: space-between; */
+  justify-content: space-around;
+  align-items: center;
+}
+
+.logo {
+  height: 57px;
+  color: #e3b873;
+  text-transform: uppercase;
+  font-size: 11px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.nav__menu {
+  display: none;
+  width: 50vw;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav__menu_item {
+  font-size: 11px;
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
+}
+/* Действие при наведении курсора на меню */
+.nav__menu_item:hover {
+  text-decoration: underline;
+}
+
+.nav__call {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center; 
+}
+
+.nav__call_tel {
+  color: #fff;
+  width: 102px;
+  font-size: 11px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.nav__call_btn {
+  display: none;
+}
+
+/* MAIN STYLES */
+
+
+/* SECTION TURNKEY_REPAIR */
+
+.turnkey_repair {
+  background-color: #131313;
+  background-image: url(../img/комната\ без\ затемнения\ мобил.png);
+  background-size: cover;
+  position: relative;
+}
+
+.turnkey_repair::before{
+  content: '';
+	display: block;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color:rgba(0, 0, 0, .7);
+  z-index: 1;
+}
+
+.turnkey_repair>.container {
+  padding: 85px 0px 61px;
+  margin: 0 auto;
+  width: 90vw;
+  position: relative;
+  z-index: 2;
+}
+
+.turnkey_repair__title {
+  width: max(50vw, 340px);
+  font-size: max(3.7vw, 23px);
+  margin: 0px 0px 142px 0px;
+  text-transform: uppercase;
+  color: #fff;
+  line-height: 132.8%;
+}
+
+.turnkey_repair__text {
+  display: none;
+  width: max(vw, 440px);
+  font-size: min(2vw, 22px);
+  color: #fff;
+  line-height: 138%;
+  margin: 0px 0px 22px 0px;
+}
+
+.turnkey_repair__btns {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 128px;
+}
+
+.turnkey_repair__btn1 {
+  border: none;
+  width: 100%;
+  height: 51px;
+  padding: 19px 70px;
+  font-size: max(2vw, 11px);
+  background-color: #e3b873;
+  outline: 1px solid #e3b873;
+  transition: background-color 0.5s linear;   /* При отведении курсора */
+}
+/* Действие при наведении (нажатии) курсора на кнопку */
+.turnkey_repair__btn1:hover {
+  background: none;
+  cursor: pointer;
+  transition: background-color 0.1s linear;
+}
+
+.turnkey_repair__btn2 {
+  border: 1px solid #fff;
+  width: 100%;
+  height: 51px;
+  padding: 19px 70px;
+  font-size: max(2vw, 11px);
+  background: none;
+  transition: background-color 0.5s linear;   /* При отведении курсора */
+}
+/* Действие при наведении (нажатии) курсора на кнопку */
+.turnkey_repair__btn2:hover {
+  background-color: #e3b873;
+  cursor: pointer;
+  transition: background-color 0.1s linear;
+}
+
+
+
+/* SECTION COMLETED_PROJECTS */
+
+
+.completed_projects {
+  background-color: #131313;
+  padding: 0px 0px 58px;
+}
+
+.completed_projects>.container {
+  width: 90vw;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.completed_projects__examples {
+  display: none;
+}
+
+.completed_projects__card {
+  width: 90vw;
+  height: auto;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  gap: 36px;
+  margin-top: 36px;
+}
+
+.completed_projects__card_title {
+  width: 253px;
+  font-size: max(3.5vw, 22px);
+  text-align: center;
+  line-height: 139%;
+  letter-spacing: -7%;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.completed_projects__card_text {
+  width: 90%;
+  font-size: max(2vw, 11px);
+  line-height: 158%;
+  margin: -14px 0px 34px;
+  text-align: center;
+  color: #fff;
+}
+
+.completed_projects__card_slider {
+  width: 90vw;
+  height: 64vw;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  background-image: url(../img/готовые_проекты_комната_мобил.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.slider_arrow {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  width: 36px;
+  height: 36px;
+  background-color: #E3B873;
+  border-radius: 50%;
+  margin: 0px 2.5vw;
+  cursor: pointer;
+  transition: background-color 0.5s linear;   /* При отведении курсора */
+}
+/* Действие при наведении (нажатии) курсора на кнопку */
+.slider_arrow:hover {
+  background-color: #d39a3ec7;
+  cursor: pointer;
+  transition: background-color 0.1s linear;
+}
+
+.slider_arrow_left{
+  margin-left: 14px;
+}
+.slider_arrow_right{
+  margin-left: 16px;
+}
+
+.completed_projects__card_features {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto;
+  gap: 34px;
+  height: 145px;
+  width: 340px;
+  margin: 0px;
+}
+
+.completed_projects__card_features_CITY {
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+
+.completed_projects__card_features_AREA {
+  grid-column: 2/3;
+  grid-row: 1/2;
+}
+
+.completed_projects__card_features_TIME {
+  grid-column: 1/2;
+  grid-row: 2/3;
+}
+
+.completed_projects__card_features_COST {
+  grid-column: 2/3;
+  grid-row: 2/3;
+}
+
+.completed_projects__card_features_title {
+  font-size: 14px;
+  line-height: 139%;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.completed_projects__card_features_text {
+  font-size: 11px;
+  line-height: 135%;
+  color: #fff;
+  margin: 9px 0px 0px;
+}
+
+.completed_projects__card_nav, .completed_projects__card_img {
+  display: none;
+}
+
+
+/*SECTION ONLINE_CONTROL */
+
+.online_control {
+  /* margin-top: 0px; */
+  background-color: #131313;
+}
+
+.online_control>.container {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: start;
+  align-items: center;
+}
+
+
+.section_title_block {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  gap: 19px;
+  margin-bottom: 40px;
+}
+
+.section_title_block__title {
+  font-size: 22px;
+  line-height: 139%;
+  text-transform: uppercase;
+  color: #fff;
+  margin: 0;
+}
+
+.section_title_block__img {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  gap: 10px;
+}
+
+.section_title_block__img_line {
+  width: 32px;
+  height: 1.5px;
+  border: 1px #e3b873 solid;
+  border-radius: 30px;
+}
+
+.online_control__broadcast {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 90vw;
+  height: 64vw;
+  background-image: url(../img/видео_трансляция_мобил.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.online_control__broadcast::before{
+  content: '';
+	display: block;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color:rgba(0, 0, 0, .8);
+  z-index: 1;
+}
+
+.online_control__broadcast_video_mobil {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* width: 37px; */
+  /* height: 37px; */
+  width: min(9.8vw, 70px);
+  height: min(9.8vw, 70px);
+  background-color: #E3B873;
+  border-radius: 50%;
+  z-index: 2;
+}
+
+.online_control__broadcast_video_mobil>img {
+  width: min(2.5vw, 20px);
+  height: min(2.5vw, 20px);
+}
+
+.online_control__broadcast_video, .online_control__broadcast_play {
+  display: none;
+}
+
+.online_control__dividing_line {
+  width: 55px;
+  height: 1.5px;
+  border: 1px #e3b873 solid;
+  border-radius: 30px;
+  margin: 28px 0px 22px;
+}
+
+.online_control__info {
+  width: 90%;
+  font-size: max(2vw, 11px);
+  /* font-size: 11px; */
+  line-height: 169%;
+  color: #fff;
+  margin: 0px 0px 75px;
+  /* width: 340px; */
+  text-align: center;
+}
+
+.request {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  /* width: 340px; */
+  gap: 27px;
+  width: min(90vw, 650px);
+}
+
+.request_data {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+  align-items: start;
+  gap: 63px;
+  /* width: 340px; */
+  width: min(90vw, 650px);
+}
+
+.request_data_form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 8px;
+  width: min(90vw, 650px);
+  /* width: 340px; */
+}
+
+.request_data_form_label {
+  font-size: 13px; /*ИЗМЕНИТЬ &&&&&??????? или не надо, нигде вроде не меняется*/
+  line-height: 100%;
+  color: #ffffff80;
+}
+
+.request_data_form_input {
+  font-size: 14px;
+  line-height: 100%;
+  border: none;  
+  border-bottom: 1px solid #ffffffb3;
+  background-color: #131313;
+  color: #fff;
+}
+.request_data_form_input::placeholder {
+  /* color:#fff */
+  color:#fff
+}
+
+.request_data_btn {
+  display: none;
+  border: none;
+  font-size: 13px;
+  width: 200px;
+  height: 51px;
+  padding: 15px 75px;
+  background-color: #e3b873;
+  transition: background-color 0.5s linear; /*При отведении курсора*/
+}
+/* Действие при наведении курсора на кнопку */
+.request_data_btn:hover {
+  background-color: #be8d3ed8;
+  cursor: pointer;
+  transition: background-color 0.1s linear;
+}
+
+.label {
+  cursor: pointer;
+}
+.checkbox{
+  display: none;
+}
+.fake{
+  display: inline-flex;
+  width: 18px;
+  height: 18px;
+  background: #E3B873;
+  color: #fff;
+  justify-content: center;
+}
+.fake::before{
+  content:"\2714";
+  opacity: 0;
+  transition: .2s;
+}
+.checkbox:checked + .fake::before{
+  opacity: 1;
+}
+
+.text {
+  color: #fff;
+  font-size: 14px;
+}
+
+.request_data_btn_mobil {
+  border: none;
+  font-size: 13px;
+  display: block;
+  width: 340px;
+  height: 51px;
+  padding: 19px 124px;
+  margin-top: 60px;
+  margin-bottom: -25px;
+  background-color: #e3b873;
+  transition: background-color 0.5s linear; /* При отведении курсора*/
+}
+/* Действие при наведении курсора на кнопку */
+.request_data_btn_mobil:hover {
+  background-color: #be8d3ed8;
+  cursor: pointer;
+  transition: background-color 0.1s linear;
+}
+
+
+
+/* TYPES OF REPAIR */
+
+.types_of_repair {
+  margin: 83px 0px 0px;
+}
+
+.types_of_repair .section_title_block__title {
+  color: #181818;
+}
+
+.types_of_repair__types {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 87px;
+  margin-bottom: 275px;
+}
+
+.types_of_repair__types_redecorating {
+  width: 340px;
+  height: 484px;
+  background-image: url(../img/ремонт_косметический_мобил.png);
+  background-position: top center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: flex-end;
+  align-items: start;
+}
+
+.types_of_repair__types_overhaul {
+  width: 340px;
+  height: 484px;
+  background-image: url(../img/ремонт_капитальный_мобил.png);
+  background-position: top center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: flex-end;
+  align-items: start;
+}
+
+.types_of_repair__types_designer {
+  width: 340px;
+  height: 484px;
+  background-image: url(../img/ремонт_дизайнерский_мобил.png);
+  background-position: top center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: flex-end;
+  align-items: start;
+}
+
+.types_of_repair__types_list {
+  width: 270px;
+  height: 241px;
+  padding: 21px 38px 37px 31px;
+  background-color: #ffffff;
+  position: relative;
+  box-shadow: 10px 10px 20px #0000000D;
+}
+
+.types_of_repair__types_list>ul {
+  padding-left: 15px;
+  margin: 0px;
+}
+
+.types_of_repair__types_title {
+  font-size: 15px;
+  line-height: 138%;
+  color: #363636;
+  margin-bottom: 10px;
+}
+
+.types_of_repair__types_list_item {
+  font-size: 13px;
+  line-height: 169%;
+  color: #959595;
+}
+
+.types_of_repair__types_btn {
+  position: absolute;
+  left: 0;
+  border: none;
+  bottom: -20px;
+  font-size: 15px;
+  width: 191px;
+  height: 40px;
+  padding: 11px 15px;
+  color: #fff;
+  background-color: #e3b873;
+  transition: background-color 0.5s linear; /*При отведении курсора*/
+}
+/* Действие при наведении курсора на кнопку */
+.types_of_repair__types_btn:hover {
+  background-color: #be8d3ed8;
+  cursor: pointer;
+  transition: background-color 0.1s linear;
+}
+
+.types_of_repair__measuring{
+  display: none;
+}
+
+.types_of_repair__measuring_bonus {
+  display: none;
+}
+
+.background_img {
+  display: none;
+}
+
+
+
+/* SECTION STYLES_REPAIR  */
+
+.styles_repair {
+  background: #131313;
+  margin: 0px;
+}
+
+.styles_repair>.container {
+  display: block;
+}
+
+.styles_repair__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 35px;
+}
+
+.styles_repair__title {
+  font-size: 22px;
+  text-align: center;
+  line-height: 138%;
+  margin: 0px;
+  margin-top: -220px;
+  text-transform: uppercase;
+  width: 284px;
+}
+
+.styles_repair__slider {
+  width: 90vw;
+  height: 64vw;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  background-image: url(../img/шкаф_с_часами_мобил.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.styles_repair__list, .styles_repair__photo {
+  display: none;
+}
+
+/* SECTION CLIENTS  */
+
+.clients {
+  display: none;
+}
+
+
+/* SECTION CONTACTS  */
+
+
+.contacts {
+  height: auto;
+  background-color: #131313;
+  background: #131313;
+}
+
+.contacts .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contacts .request_title {
+  color: #fff;
+  font-size: 20px;
+  line-height: 138%;
+  width: 257px;
+  margin: 30px 0px 0px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.contacts__connection {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: center; 
+}
+
+.contact_map_mobil {
+  display: block;
+  margin-top: 27px;
+  margin-bottom: -24px;
+  width: 90vw;
+  height: 64vw;
+}
+
+.contacts__connection_address_and_tel {
+  width: 340px;
+  font-size: 18px;
+  line-height: 138%;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.contacts__connection_network {
+  display: flex;
+  flex-direction: row;
+  width: 99px;
+  gap: 21px;
+  margin-bottom: 20px;
+}
+
+.contacts__connection_network>div {
+  width: 39px;
+  height: 39px;
+  border-radius: 50%;
+  background-color: #E3B873;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.contacts__connection_network_mail, .contacts__connection_network_inst {
+  display: none;
+}
+
+.contacts__connection_network_mail_mobil, .contacts__connection_network_inst_mobil {
+  display: block;
+}
+
+.contacts_map {
+  display: none;
+}
+
+/* FOOTER */
+
+footer {
+  display: none;
+}

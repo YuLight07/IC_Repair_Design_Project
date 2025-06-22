@@ -1,0 +1,988 @@
+@media (min-width: 768px) and (max-width: 1299px) {
+
+
+.container {
+  max-width: 1200px;
+  min-width: 729px;
+  margin: 0 auto;
+}
+
+
+/* ***HEADER STYLES**** */
+
+
+.logo {
+  height: 70px;
+}
+
+.nav__menu {
+  display: flex;
+}
+
+.nav__call_tel {
+  color: #e3b873;
+  text-decoration: underline;
+}
+
+
+/* MAIN STYLES */
+
+
+/* SECTION TURNKEY_REPAIR */
+
+.turnkey_repair__title {
+  font-size: min(3.5vw, 40px);
+  margin: 0px 0px 20px 0px;
+}
+
+.turnkey_repair__text {
+  display: block;
+
+}
+
+
+.turnkey_repair__btn1 {
+  font-size: max(1.5vw, 11px);
+}
+
+
+.turnkey_repair__btn2 {
+  font-size: max(1.5vw, 11px);
+}
+
+
+/* SECTION COMLETED_PROJECTS */
+
+
+
+.completed_projects__card {
+  width: 690px;
+}
+
+.completed_projects__card_title {
+  font-size: max(2vw, 22px);
+}
+
+.completed_projects__card_text {
+  font-size: max(1.2vw, 11px);
+}
+
+.completed_projects__card_slider {
+  width: 690px;
+  height: 491px;
+}
+
+.slider_arrow {
+  width: 46px;
+  height: 46px;
+}
+
+.slider_arrow>img {
+  width: 10px;
+  height: 14px;
+}
+
+.slider_arrow_left{
+  margin-left: 17px;
+}
+.slider_arrow_right{
+  margin-left: 19px;
+}
+
+.completed_projects__card_features {
+  height: 165px;
+}
+
+.completed_projects__card_features_title {
+  font-size: 18px;
+}
+
+.completed_projects__card_features_text {
+  font-size: 13px;
+  line-height: 163%;
+}
+
+
+
+/*SECTION ONLINE_CONTROL */
+
+
+.online_control__broadcast {
+  width: 690px;
+  height: 486px;
+}
+
+.online_control__broadcast_video_mobil {
+  width: 75px;
+  height: 75px;
+}
+
+.online_control__broadcast_video_mobil>img {
+  width: 20px;
+  height: 20px;
+}
+
+.online_control__info {
+  font-size: max(1.2vw, 11px);
+  width: 690px;
+}
+
+.request, .request_data, .request_data_form {
+  width: 690px;
+}
+
+
+/* TYPES OF REPAIR */
+
+
+.types_of_repair__types_title {
+  font-size: 18px;
+}
+
+/* SECTION STYLES_REPAIR  */
+
+.styles_repair__slider {
+  width: 690px;
+  height: 491px;
+}
+
+.contact_map_mobil {
+  width: 690px;
+  height: 491px;
+}
+
+
+}
+
+
+
+
+
+
+
+@media (min-width: 1300px) {
+
+
+.container {
+  max-width: 1263px;
+  margin: 0 auto;
+}
+
+
+/* ***HEADER STYLES**** */
+
+
+.logo {
+  height: 83px;
+}
+
+.nav__menu {
+  display: flex;
+  width: 581px;
+}
+
+.nav__call {
+  width: 308px;
+}
+
+.nav__call_tel {
+  color: #e3b873;
+  text-decoration: underline;
+}
+
+.nav__call_btn {
+  display: block;
+  border: none;
+  width: 161px;
+  height: 37px;
+  padding: 13px 33px;
+  background-color: #e3b873;
+  transition: background-color 0.5s linear;   /* При отведении курсора */
+}
+/* Действие при наведении курсора на кнопку */
+.nav__call_btn:hover {
+  background-color: #daa552d8;
+  cursor: pointer;
+  transition: background-color 0.1s linear;
+}
+
+/* MAIN STYLES */
+
+
+/* SECTION TURNKEY_REPAIR */
+
+.turnkey_repair {
+  background-image: url(../img/комната\ без\ затемнения.png);
+}
+
+.turnkey_repair>.container {
+  padding: 194px 773px 208px 134px;
+}
+
+.turnkey_repair__title {
+  margin: 0px;
+  width: 533px;
+  font-size: 40px;
+}
+
+.turnkey_repair__text {
+  display: block;
+  width: 533px;
+  font-size: 22px;
+  line-height: 163%;
+  margin: 19px 0px 22px 0px;
+}
+
+.turnkey_repair__btns {
+  flex-flow: row nowrap;
+  width: 434px;
+  height: 51px;
+}
+
+.turnkey_repair__btn1 {
+  width: 205px;
+  height: 49px;
+  padding: 19px 41px;
+  font-size: 11px;
+}
+
+.turnkey_repair__btn2 {
+  width: 207px;
+  padding: 19px 22px;
+  font-size: 11px;
+}
+
+
+/* SECTION COMLETED_PROJECTS */
+
+.completed_projects {
+  padding: 107px 0px 414px;
+}
+
+.completed_projects>.container {
+  width: 1171px;
+  height: 553px;
+  align-items: flex-end;
+}
+
+
+.completed_projects__examples {
+  width: 679px;
+  height: 24px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  list-style: none;
+  margin: 0;
+}
+
+.completed_projects__examples_item {
+  font-size: 14px;
+  color: #ffffff4d;
+  line-height: 139%;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.completed_projects__examples>li:nth-of-type(1) {
+  text-decoration: underline;
+  text-underline-offset: 6px;
+  text-decoration-color: #e3b873;
+}
+
+/* Действие при наведении курсора */
+.other_examples:hover {
+  text-decoration: underline;
+  text-underline-offset: 6px;
+  text-decoration-color: #ffffff4d;
+}
+
+.completed_projects__card {
+  width: 1171px;
+  height: 482px;
+  gap: 50px;
+  margin-top: 45px;
+  align-items: start;
+}
+
+.completed_projects__card_title {
+  width: 253px;
+  height: 66px;
+  font-size: 27px;
+  text-align: start;
+}
+
+.completed_projects__card_text {
+  text-align: start;
+  width: 442px;
+  font-size: 14px;
+  line-height: 191%;
+  margin: -16px 0px -8px;
+}
+
+.completed_projects__card_slider {
+  display: none;
+}
+
+.completed_projects__card_features {
+  height: 165px;
+  margin: 0px 0px 30px;
+}
+
+.completed_projects__card_features_title {
+  font-size: 18px;
+}
+
+.completed_projects__card_features_text {
+  font-size: 13px;
+  line-height: 163%;
+}
+
+.completed_projects__card_nav {
+  display: flex;
+  flex-flow: row nowrap;
+  width: 206px;
+  gap: 29px;
+  justify-content: space-between;
+}
+
+.completed_projects__card_nav>div {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  width: 64px;
+  gap: 17px;
+}
+
+.completed_projects__card_nav>a {
+  height: 14px;
+}
+
+.completed_projects__card_nav_item1 {
+  width: 10px;
+  height: 10px;
+  border: 5px #fff solid;
+  border-radius: 30px;
+}
+
+.completed_projects__card_nav_item2, 
+.completed_projects__card_nav_item3  {
+  width: 10px;
+  height: 10px;
+  border: 5px #ffffff4d solid;
+  border-radius: 30px;
+  transition: border 0.5s linear;   /* При отведении курсора */
+}
+
+.completed_projects__card_nav_item2:hover, 
+.completed_projects__card_nav_item3:hover {
+  border: 5px #fff solid; /* Действие при наведении курсора */
+  transition: border 0.1s linear;
+}
+
+.completed_projects__card_img {
+  display: block;
+}
+
+
+/*SECTION ONLINE_CONTROL */
+
+.online_control {
+  background-color: #fff;
+}
+
+.online_control .section_title_block {
+  margin-top: -325px;
+}
+
+.online_control__broadcast {
+  height: 434px;
+  width: 817px;
+  background: none;
+}
+
+.online_control__broadcast_video_mobil {
+  display: none;
+}
+
+.online_control__broadcast_video {
+  display: block;
+  filter: brightness(15%);
+  box-shadow: 0px 20px 50px #00000026;
+  position: absolute;
+}
+
+.online_control__broadcast::before {
+  display: none;
+}
+
+.online_control__broadcast_play {
+  width: 86px;
+  height: 86px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.circle {
+  position: relative;
+}
+
+.play {
+  position: absolute;
+}
+
+.online_control__dividing_line {
+  margin: 62px 0px 35px;
+}
+
+.online_control__info {
+  font-size: 18px;
+  line-height: 204%;
+  color: #363636;
+  margin: 0px 0px 92px;
+  width: 681px;
+  text-align: center;
+
+}
+
+.request {
+  gap: 33px;
+  width: auto;
+}
+
+.request_data {
+  flex-flow: row nowrap;
+  align-items: center;
+  gap: 49px;
+  width: auto;
+}
+
+.request_data_form {
+  width: auto;
+}
+
+.request_data_form_label {
+  color: #ffffff80;
+}
+
+.request_data_form_input {
+  border-bottom: 1px solid #3636364D;
+  background-color: #fff;
+  color: #363636;
+}
+.request_data_form_input::placeholder {
+  color:#363636
+}
+
+.request_data_btn {
+  display: block;
+}
+
+.text {
+  color: #181818;
+}
+
+.request_data_btn_mobil {
+  display: none;
+}
+
+
+
+/* TYPES OF REPAIR */
+
+.types_of_repair {
+  margin: 148px 0px 0px;
+}
+
+.types_of_repair__types {
+  gap: 30px;
+  margin-bottom: 151px;
+}
+
+.types_of_repair__types_redecorating {
+  width: 392px;
+  height: 584px;
+  background-image: url(../img/ремонт_косметический.png);
+  align-items: center;
+}
+
+.types_of_repair__types_overhaul {
+  width: 392px;
+  height: 584px;
+  background-image: url(../img/ремонт_капитальный.png);
+  align-items: center;
+}
+
+.types_of_repair__types_designer {
+  width: 392px;
+  height: 584px;
+  background-image: url(../img/ремонт_дизайнерский.png);
+  align-items: center;
+}
+
+.types_of_repair__types_list {
+  width: 330px;
+  height: 286px;
+  padding: 25px 68px 49px 34px;
+}
+
+.types_of_repair__types_title {
+  font-size: 18px;
+}
+
+.types_of_repair__types_list_item {
+  line-height: 204%;
+}
+
+.types_of_repair__types_btn {
+  bottom: -27px;
+  font-size: 18px;
+  width: 228px;
+  height: 54px;
+  padding: 17px 15px;
+}
+
+
+.types_of_repair__measuring{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 206px;
+  background: url(../img/фон_здание.png) no-repeat left;
+  background-position-y: -100px;
+  background-position-x: -150px;
+}
+
+.types_of_repair__measuring_steps {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  gap: 87px;
+}
+
+.types_of_repair__measuring_steps>div {
+  display: flex;
+  flex-flow: row nowrap;
+  width: 400px;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+  color: #fff;
+}
+
+.types_of_repair__measuring_steps_item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 57px;
+  height: 57px;
+  font-size: 18px;
+  color: #fff;
+  line-height: 138%;
+  background-color: #E3B873;
+  border: 8px solid #fff;
+  border-radius: 50%;
+  box-shadow: 0px 0px 15px #0000001A;
+}
+
+.types_of_repair__measuring_steps_text {
+  font-size: 14px;
+  color: #363636;
+  width: 335px;
+}
+
+
+.types_of_repair__measuring>.request {
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  gap: 16px;
+  width: 506px;
+  height: 509px;
+  background-color: #131313;
+  padding: 27px 49px;
+}
+
+.request_title {
+  font-size: 18px;
+  line-height: 143%;
+  color: #fff;
+  width: 223px;
+  margin-left: 94px;
+  margin-bottom: 23px;
+  text-align: center;
+}
+
+.types_of_repair__measuring .request_data {
+  flex-flow: column nowrap;
+  gap: 48px;
+}
+
+.types_of_repair__measuring .request_data_form {
+  gap: 7px;
+  width: 408px;
+}
+
+.types_of_repair__measuring .request_data_form_label {
+  color: #ffffff80;
+  line-height: 123%;
+}
+
+.types_of_repair__measuring .request_data_form_input {
+  background-color: #131313;
+  border: none;
+  border-bottom: 1px solid #3636364D;
+  color: #fff;
+}
+.types_of_repair__measuring .request_data_form_input::placeholder {
+  color:#fff
+}
+
+.types_of_repair__measuring .text {
+  color: #fff;
+}
+
+.types_of_repair__measuring .request_data_btn {
+  width: 213px;
+  padding: 18px 21px;
+  font-style: normal;
+  margin-left: 195px;
+  margin-top: 23px;
+}
+
+.types_of_repair__measuring_bonus {
+  display: flex;
+  flex-flow: row nowrap;
+  width: 400px;
+  justify-content: start;
+  align-items: center;
+  gap: 25px;
+  margin: 38px 0px 242px 720px;
+}
+
+.types_of_repair__measuring_bonus_img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 72px;
+  height: 72px;
+  background-color: #E3B873;
+  border-radius: 50%;
+}
+
+.types_of_repair__measuring_bonus_text {
+  font-size: 18px;
+  line-height: 123%;
+  color: #e3b873;
+  width: 300px;
+}
+
+.background_img {
+  position: absolute;
+  top: 3400px;
+  z-index: -1;
+}
+
+
+/* SECTION STYLES_REPAIR  */
+
+.styles_repair {
+  margin: 0px 0px 110px 0px;
+  background-color: #131313;
+  background: linear-gradient(90deg, rgba(0,0,0,.7), rgba(0,0,0,.9)),
+   url(../img/фон_для_стилей.png);
+  background-size: cover;
+  position: relative;
+}
+
+.styles_repair>.container {
+  height: 864px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 204px;
+  margin-bottom: 0px;
+}
+
+.styles_repair__title {
+  font-size: 27px;
+  text-align: start;
+  margin: 0px 0px 47px 0px;
+}
+
+.styles_repair__slider {
+  display: none;
+}
+
+.styles_repair__list {
+  display: block;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: 284px;
+}
+
+.styles_repair__list_item {
+  font-size: 20px;
+  margin-bottom: 25px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.styles_repair__list_item:first-child {
+  text-decoration: underline;
+  text-underline-offset: 7px;
+  text-decoration-thickness: 0.6px;
+}
+
+.styles_repair__list_item:hover {
+  text-decoration: underline;
+  text-underline-offset: 7px;
+  text-decoration-thickness: 0.6px;
+}
+
+.styles_repair__photo {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  gap: 43px;
+}
+
+.styles_repair__photo_column1, .styles_repair__photo_column2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  gap: 40px;
+}
+
+.styles_repair__photo_column2 {
+  margin-top: -72px;
+}
+
+
+/* SECTION CLIENTS  */
+
+.clients {
+  display: block;
+  height: 996px;
+  background-image: url(../img/фон_город_для_клиентов.png);
+  background-position: bottom right;
+  background-repeat: repeat-x;
+}
+
+.clients .section_title_block__title {
+  color: #181818;
+}
+
+.clients .section_title_block {
+  margin-bottom: 63px;
+}
+
+.section_title_block__text {
+  font-size: 18px;
+  color: #363636;
+  margin-top: 13px;
+  width: 374px;
+  text-align: center;
+}
+
+.clients__cards {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  gap: 54px;
+}
+
+.clients__cards_card {
+  width: 376px;
+  height: 428px;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: start;
+  padding: 24px 30px 0px 20px;
+  box-shadow: 0px 10px 50px #0000000D;
+}
+
+.clients__cards_name {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  gap: 23px;
+}
+
+.clients__cards_name>img {
+  grid-column: 1/2;
+}
+
+.clients__cards_name>p {
+  grid-column: 2/3;
+  font-size: 18px;
+  line-height: 127%;
+}
+
+.clients__cards_feedback {
+  font-size: 13px;
+  color: #959595;
+  line-height: 180%;
+  margin: 22px 0px 60px;
+}
+
+.clients__cards_parameters {
+  width: 294px;
+  height: 54px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: start;
+  gap: 1px;
+  margin-left: -20px;
+}
+
+.clients__cards_parameters_area {
+  width: 135px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 15px;
+  padding: 11px 14px 11px 17px;
+  background-color: #E3B873;
+}
+
+.clients__cards_parameters_area>p {
+  display: block;
+  margin: 0;
+  font-size: 17px;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.clients__cards_parameters_term {
+  width: 159px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 15px;
+  padding: 11px 17px;
+  background-color: #E3B873;
+}
+
+.clients__cards_parameters_term>p {
+  display: block;
+  margin: 0;
+  font-size: 17px;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+
+
+/* SECTION CONTACTS  */
+
+
+.contacts {
+  height: 954px;
+  background-color: #181818;
+  position: relative;
+  background: linear-gradient(rgb(24,24,24), rgba(24,24,24,.8)),
+  url(../img/фон_для_контактов.png);
+  background-size: cover;
+  position: relative;
+}
+
+.contacts .request {
+  position: absolute;
+  margin-top: -222px;
+  gap: 46px;
+  width: 882px;
+  height: 444px;
+  padding: 34px 181px;
+  background-color: #181818;
+}
+
+.contacts .request_title {
+  margin: 0px;
+}
+
+.contacts .request_data {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  gap: 0px;
+  width: 517px;
+}
+
+.contacts .request_data_form {
+  width: 231px;
+}
+
+.contacts .request_data_form:last-child {
+  width: 517px;
+  margin-top: 46px;
+}
+
+.contacts .request_data_form_label {
+  color: #ffffff80;
+}
+
+.contacts .request_data_form_input {
+  background-color: #181818;
+  border-bottom: 1px solid #ffffff26;
+  color: #fff;
+}
+.contacts .request_data_form_input::placeholder {
+  color:#fff
+}
+
+.contacts .text {
+  color: #fff;
+}
+
+.contacts__connection {
+  margin-top: 274px;
+  margin-bottom: 43px;
+  gap: 26px;
+}
+
+.contact_map_mobil {
+  display: none;
+}
+
+.contacts__connection_address_and_tel {
+  width: 589px;
+  font-size: 20px;
+}
+
+.contacts__connection_network {
+  width: 71px;
+  gap: 15px;
+}
+
+.contacts__connection_network>div {
+  width: 28px;
+  height: 28px;
+}
+
+.contacts__connection_network_mail, .contacts__connection_network_inst {
+  display: block;
+}
+
+.contacts__connection_network_mail_mobil, .contacts__connection_network_inst_mobil {
+  display: none;
+}
+
+.contacts_map {
+  display: block;
+}
+
+
+/* FOOTER */
+
+footer {
+  display: block;
+}
+
+}
